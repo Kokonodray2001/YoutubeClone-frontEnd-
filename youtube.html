@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/video.css" />
+    <link rel="stylesheet" href="style/sidebar.css" />
+  </head>
+  <!--if anyone of height or width  afchanges the adjust automatically to maintain the dimension -->
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          src="icons/hamburger-menu.svg"
+          width="25px"
+          style="margin-left: 30px"
+        />
+        <img
+          src="icons/youtube-logo.svg"
+          width="100px"
+          style="margin-left: 30px"
+        />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="search" placeholder="Search" />
+        <button
+          style="
+            height: 36px;
+            width: 60px;
+            border: solid;
+            border-color: rgb(207, 206, 206);
+            border-width: 1px 1px 1px 0px;
+          "
+        >
+          <img src="icons/search.svg" style="height: 25px; padding-top: 4px" />
+        </button>
+        <button
+          style="
+            height: 36px;
+            margin-left: 5px;
+            border-radius: 50%;
+            border: none;
+          "
+        >
+          <img src="icons/voice-search-icon.svg" style="height: 25px" />
+        </button>
+      </div>
+      <div class="right-section">
+        <img src="icons/upload.svg" style="width: 25px" />
+        <img src="icons/youtube-apps.svg" style="width: 25px" />
+        <div class="notifications-count">3</div>
+        <img src="icons/notifications.svg" style="width: 25px" />
+        <img
+          src="ChannelLogo/unnamed.jpg "
+          style="width: 35px; height: 35px; border-radius: 50%"
+        />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="sidebarimg/home.svg" />
+        <div class="sidebar-text">Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="sidebarimg/explore.svg" />
+        <div class="sidebar-text">Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="sidebarimg/library.svg" />
+        <div class="sidebar-text">Library</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="sidebarimg/originals.svg" />
+        <div class="sidebar-text">Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="sidebarimg/subscriptions.svg" />
+        <div class="sidebar-text">Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="sidebarimg/youtube-music.svg" />
+        <div class="sidebar-text">Youtube-music</div>
+      </div>
+    </div>
+    <div class="vid-grid">
+      <div class="vid-preview">
+        <div class="vid-pic">
+          <div class="vid-time">14:20</div>
+          <img class="thumbnail1" src="images/thumbnail-1.webp" />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-logo">
+            <img class="profile-pic" src="ChannelLogo/channel-1.jpeg" />
+          </div>
+          <div class="vid-info">
+            <p class="vid-title">
+              Talking Tech and AI with Google CEO Sundar Pichai
+            </p>
+            <p class="vid-author">Marques Brownlee</p>
+            <p class="vid-stats">3.4M views &middot; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-preview">
+        <div class="vid-pic">
+          <div class="vid-time">4:20</div>
+          <img class="thumbnail1" src="images/thumbnail-2.webp" />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-logo">
+            <img class="profile-pic" src="ChannelLogo/channel-2.jpeg" />
+          </div>
+          <div class="vid-info">
+            <p class="vid-title">Try Not To Laugh Challenge #9</p>
+            <p class="vid-author">Markiplier</p>
+            <p class="vid-stats">19M views · 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-preview">
+        <div class="vid-pic">
+          <div class="vid-time">1:24</div>
+          <img class="thumbnail1" src="images/thumbnail-3.webp" />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-logo">
+            <img class="profile-pic" src="ChannelLogo/channel-3.jpeg" />
+          </div>
+          <div class="vid-info">
+            <p class="vid-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="vid-author">CS Dojo</p>
+            <p class="vid-stats">18M views · 4 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-preview">
+        <div class="vid-pic">
+          <div class="vid-time">24:20</div>
+          <img class="thumbnail1" src="images/thumbnail-4.webp" />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-logo">
+            <img class="profile-pic" src="ChannelLogo/channel-4.jpeg" />
+          </div>
+          <div class="vid-info">
+            <p class="vid-title">
+              Anything You Can Fit In The Circle I’ll Pay Fors
+            </p>
+            <p class="vid-author">PMrBeast</p>
+            <p class="vid-stats">141M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-preview">
+        <div class="vid-pic">
+          <div class="vid-time">10:24</div>
+          <img class="thumbnail1" src="images/thumbnail-5.webp" />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-logo">
+            <img class="profile-pic" src="ChannelLogo/channel-5.jpeg" />
+          </div>
+          <div class="vid-info">
+            <p class="vid-title">Why Planes Don't Fly Over Tibet</p>
+            <p class="vid-author">RealLifeLore</p>
+            <p class="vid-stats">6.6M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-preview">
+        <div class="vid-pic">
+          <div class="vid-time">18:20</div>
+          <img class="thumbnail1" src="images/thumbnail-7.webp" />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-logo">
+            <img class="profile-pic" src="ChannelLogo/channel-7.jpeg" />
+          </div>
+          <div class="vid-info">
+            <p class="vid-title">
+              How The World's Largest Cruise Ship Makes 30,000 Meals Every
+            </p>
+            <p class="vid-author">Business Insider</p>
+            <p class="vid-stats">14M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-preview">
+        <div class="vid-pic">
+          <div class="vid-time">54:20</div>
+          <img class="thumbnail1" src="images/thumbnail-6.webp" />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-logo">
+            <img class="profile-pic" src="ChannelLogo/channel-6.jpeg" />
+          </div>
+          <div class="vid-info">
+            <p class="vid-title">
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+            </p>
+            <p class="vid-author">Destination Tips</p>
+            <p class="vid-stats">3M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
